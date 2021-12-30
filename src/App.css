@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-style: oblique;
+  color: white;
+  font-size: calc(50px + 2vmin);
 }
 
 .App-logo {
