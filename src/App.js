@@ -15,7 +15,7 @@ function App() {
   return (
     <div  style={styles}>
         <div className='App'>
-          JIGAR JOISAR
+          
         </div>
     </div>
     
