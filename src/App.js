@@ -1,5 +1,5 @@
 import "./App.css";
-import backgroundH from "./images/bg1.jpg";
+import backgroundH from "./images/test.jpeg";
 import Grid from "./grid/Grid";
 
 const styles = {
