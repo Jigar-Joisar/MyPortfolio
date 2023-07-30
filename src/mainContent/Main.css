@@ -1,0 +1,45 @@
+.card {
+  width: auto;
+  height: 100%;
+  color: white;
+  /* background-color: rgb(202, 246, 246); */
+  padding: 20px;
+  margin: 20px;
+}
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.home {
+  text-align: left;
+
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+content {
+  animation: 5s ease-out 0s 1 slideInLeft;
+  /* background: #666; */
+  padding: 40px;
+}
