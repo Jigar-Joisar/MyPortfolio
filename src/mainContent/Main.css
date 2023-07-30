@@ -16,7 +16,7 @@
 .home {
   text-align: left;
 
-  animation: fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 15s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
