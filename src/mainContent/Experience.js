@@ -1,21 +1,44 @@
 import "./Main.css";
+import "./Common.css";
 
 function Experience() {
   return (
     <div>
-      Quisque a consequat neque. Mauris vel arcu sed augue pellentesque interdum
-      et nec tortor. Duis porttitor finibus ipsum sed molestie. Integer ut ipsum
-      iaculis, laoreet odio et, rhoncus leo. Vivamus dapibus tortor et urna
-      cursus suscipit. In rutrum, turpis quis faucibus sodales, ante purus
-      sagittis est, vitae egestas ex eros sed dui. In sagittis, eros vel
-      efficitur tincidunt, turpis nunc tempor est, malesuada pharetra sapien
-      metus ac turpis. Nunc nec ullamcorper lorem. Etiam fermentum aliquam
-      lacus, ut molestie risus. Duis interdum justo ante, nec sollicitudin dui
-      cursus eu. Vivamus at tortor quam. Proin porttitor laoreet mi, ac rhoncus
-      quam commodo eu. Vestibulum laoreet tincidunt sem, sit amet iaculis metus
-      venenatis eu. Aenean auctor ipsum auctor ante interdum rutrum. Donec
-      ullamcorper, lacus id condimentum tempor, dolor diam tincidunt eros, in
-      imperdiet nunc eros eu metus. Nullam vitae pharetra magna.
+      <h1>Experience</h1>
+      <br />
+      <ul>
+        <li style={{ "--accent-color": "#41516C" }}>
+          <div className="date">2023 - Present</div>
+          <div className="title">UBS - SDE 2</div>
+          <div className="descr">
+            Etiam euismod lectus interdum hendrerit hendrerit. Proin luctus
+            gravida erat quis interdum. Phasellus rhoncus purus in ipsum
+            convallis vulputate. Morbi ac volutpat tortor. Maecenas in tempor
+            odio. Proin fermentum diam quis magna commodo tempus.
+          </div>
+        </li>
+        <li style={{ "--accent-color": "#FBCA3E" }}>
+          <div className="date">2020-2023</div>
+          <div className="title">UBS - SDE 1</div>
+          <div className="descr">
+            Etiam euismod lectus interdum hendrerit hendrerit. Proin luctus
+            gravida erat quis interdum. Phasellus rhoncus purus in ipsum
+            convallis vulputate. Morbi ac volutpat tortor. Maecenas in tempor
+            odio. Proin fermentum diam quis magna commodo tempus.
+          </div>
+        </li>
+        <li style={{ "--accent-color": "#E24A68" }}>
+          <div className="date">2019</div>
+          <div className="title">UBS - Intern</div>
+          <div className="descr">
+            I have interned at UBS India in Summer of 2019 in Investment banking
+            division working in integrating Liquibase for effective management
+            of Database scripts.
+            <br />
+            Recevied PPO for contribution in the above project.
+          </div>
+        </li>
+      </ul>
     </div>
   );
 }
